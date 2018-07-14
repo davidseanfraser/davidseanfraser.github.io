@@ -1,0 +1,13 @@
+a.nav-link {color:white;}
+a.nav-link:link  {text-decoration: none; color: white;}
+a.nav-link:visited {text-decoration: none; color: white;}
+a.nav-link:hover {text-decoration: underline; color: white;}
+a.nav-link:active {text-decoration: none; color: white;}
+
+table, th, td {
+  border: 1px black;
+
+}
+
+#table {color:black;}
+#home {color:lightblue;}
