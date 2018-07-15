@@ -1,16 +1,16 @@
 ---
-
+#test
 ---
 
 $font-stack: Helvetica; sans-serif;
 $primary-color: green;
 $secondary-color: blue;
 
-#pro {
+body {
   font: $font-stack;
   color: $primary-color;
 }
 
-#function {
+ul {
   color: $primary-color;
 }
