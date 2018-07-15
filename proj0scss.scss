@@ -1,0 +1,22 @@
+// $font-stack: Helvetica; sans-serif;
+// $primary-color: green;
+// $secondary-color: blue;
+//
+// body {
+//   font: $font-stack;
+//   color: $primary-color;
+// }
+//
+// ul {
+//   color: $primary-color;
+// }
+
+// _reset.scss
+
+html,
+body,
+ul,
+ol {
+  margin:  0;
+  padding: 0;
+}
