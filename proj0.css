@@ -11,3 +11,16 @@ table, th, td {
 
 #table {color:black;}
 #home {color:lightblue;}
+
+@media only print {
+  body{
+  display:none;
+  }
+
+}
+
+@media only screen {
+  footer{
+    display: none;
+  }
+}

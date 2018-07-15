@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 
 <link rel="stylesheet" href="proj0scss.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <html>
     <head>
         <title>Oracle EPMCS</title>
+        <!-- <meta http-equiv="refresh" content="1" > -->
     </head>
     <body>
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -21,7 +23,7 @@
       <div class="jumbotron">
         <div class="container" style="padding:10px;">
             <h1>David's Project 0 Webpage</h1>
-            <p>This webpages uses lists, SCSS</p>
+            <p>This webpages uses lists, SCSS variables, SCSS nesting and SCSS inheritance</p>
         </div>
       </div>
 
@@ -29,13 +31,14 @@
         <div class="row">
           <div class="col-xs-3 col-xs-offset-3">
             <h1 id="pro"> Pros </h1>
-            <ul>
-              <li> Fast </li>
+            <ul class="litest"> <div class="litest">
+              <li class="litest"> Fast </li>
               <li> Lightweight </li>
               <li> More Pros </li>
               <li> More Pros </li>
               <li> More Pros </li>
               <li> More Pros </li>
+            </div>
             </ul>
           </div>
           <div class="col-xs-3">
@@ -44,8 +47,14 @@
               <li> Business </li>
               <li> Finance </li>
               <li> Manufacturing </li>
-              <li> Supply Chain </li>
+              <li class='litest'> <div class='litest'>Supply Chain </div></li>
             </ol>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+              <p class="ultest"> Testing the size </p>
+            </div>
           </div>
 
     </body>

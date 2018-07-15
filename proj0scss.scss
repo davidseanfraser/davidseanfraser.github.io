@@ -1,17 +1,16 @@
-// $font-stack: Helvetica; sans-serif;
-// $primary-color: green;
-// $secondary-color: blue;
-//
-// body {
-//   font: $font-stack;
-//   color: $primary-color;
-// }
-//
-// ul {
-//   color: $primary-color;
-// }
+$font-stack: Helvetica;
+$primary-color: green;
+$secondary-color: blue;
 
-// _reset.scss
+body {
+  ul {
+    color: $secondary-color;
+  }
+  font: $font-stack;
+  color: $primary-color;
+}
+
+
 
 html,
 body,
@@ -19,5 +18,19 @@ ul,
 ol {
   margin:  0;
   padding: 0;
+
+
+}
+
+a:hover {
+  color:yellow;
+}
+
+.litest {
   color: red;
+}
+
+.ultest {
+  @extend .litest;
+  font-size:18px;
 }
